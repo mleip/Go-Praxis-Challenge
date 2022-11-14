@@ -1,0 +1,34 @@
+body{
+    background-color:#f9f9fa;
+}
+
+.darkgreenborder{
+  border-color:  #083347;
+}
+
+.btn{
+  color: black;
+}
+
+.icon{
+  color: #083347;
+}
+
+.btn:hover{
+    background-color: #083347;
+    color: white;
+}
+
+.colorGreen{
+    background-color: #A6F1C2;
+}
+
+input[type=checkbox]:checked{  
+    background-color:rgb(255, 255, 255);
+    border:1px solid black; background-color: #a6f1c2;
+    border-radius: 0%;
+}
+
+p{
+    font-size: small;
+}

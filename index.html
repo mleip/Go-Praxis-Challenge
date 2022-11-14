@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">        
+</head>
+
+<body>
+  <div class="container pt-5 rounded-0">
+  <div class="row">
+    <div class="col-12 offset-md-2 col-md-8">
+    <h1>TechstarterToDo App</h1>   
+        <div class="card rounded-0">
+            <div class="card-body rounded-0">
+                <h4 class="pb-3">Eintrag hinzufügen</h4>
+                <div class="input-group mb-3 rounded-0">
+                    <span class="input-group-text border-end-0 rounded-0 colorGreen darkgreenborder">Neue Todo:</span>
+                    <input type="text" class="form-control border-end-0 border-start-0 darkgreenborder" placeholder="Lernen" id="ToDo">
+                    <button type="button" onclick="addItemToListe()" class="btn btn-success border-start-0 rounded-0 colorGreen darkgreenborder">Eintrag hinzufügen</button>
+                </div>
+                <h3 class="pt-5 pb-1">Aktuelle Todos</h3>
+                <ul class="list-group list-group-flush rounded-0" id="liste">
+
+                </ul>
+            </div>
+            </div>      
+    <p class="text-muted">© 2022 Michael Leipner</p>
+    </div>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
